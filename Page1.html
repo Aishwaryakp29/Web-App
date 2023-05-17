@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Sample Page</title>
+        <style>
+            .labelStyle{
+                color:blue;
+            }
+            div{
+                border-bottom:1px solid black;
+                border-right:1px solid black;
+                margin-top:50px;
+                padding: 10px;
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello World !!</h1>
+        <h2>Hello World !!</h2>
+        <h3>Hello World !!</h3>
+        <h4>Hello World !!</h4>
+        <h5>Hello World !!</h5>
+        <h6>Hello World !!</h6>
+        <p> this is line  one and
+            this is line two
+        </p>
+        <label id="lblname">Name</label>
+        <pre>
+            this is line  one and
+            this is line two
+
+
+            this is line three
+        </pre>
+
+<!-- --------------------------------------------------------------------- -->
+<form method="post" action="http://google.com">
+    <div>
+        <label class="labelStyle" for="txtname">Name</label>
+        <input type="text" id="txtname" value="Text 1" required="required"/>
+    </div>
+    <div>
+        <input type="email" id="txtemail" required="required" placeholder="enter your email"/>
+    </div>
+    <div>
+        <label class="labelStyle">Gender</label>
+        <input type="radio" name="btnGender" checked/> Male
+        <input type="radio" name="btnGender"/> Female
+    </div>
+    <div>
+        <label class="labelStyle">Date Of Birth</label>
+        <input type="time" id="txtdob" required="required"/>
+    </div>
+    <div>
+        <label>Country</label>
+        <select>
+            <option value="1">India</option>
+            <option value="2" selected>USA</option>
+            <option value="3">China</option>
+            <option value="4">Canada</option>
+        </select>
+    </div>
+    <div>
+        <span>
+            <label>Subject</label>
+        </span>
+        <span>
+            <ul type="circle">
+                <li>
+                    <input type="checkbox" /> English
+                </li>
+                <li>
+                    <input type="checkbox" /> Hindi
+                </li>
+                <li>
+                    <input type="checkbox" /> Maths
+                </li>
+                <li>
+                    <input type="checkbox" /> Sci
+                </li>
+            </ul>
+        </span>
+    </div>
+    <div>
+        <input type="button" value="click"/>
+        <button type="reset">Click On Me</button>
+    </div>
+</form>
+        
+        <div>
+            <img src="images/bird-thumbnail.jpg" alt="Invalid Image Path" width="300"/>
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/h0mTCfaZQ9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            
+            <iframe src="http://127.0.0.1:5500/index.html" style="border:0"></iframe>
+        </div>
+    </body>
+</html>
